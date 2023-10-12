@@ -1,0 +1,119 @@
+.title {
+    text-align: left;
+    margin-left: 50px;
+    color:rgb(177, 177, 177);
+}
+
+.second {
+    text-align: center;
+    color: #fff;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 430px;
+    margin-left: 30px;
+    /* margin-bottom: 50px; */
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    padding: 6px;
+    font-size: 16px;
+    outline: none;
+    color: var(--text-color);
+}
+
+.search-btn {
+    border: none;
+    color: black;
+    padding: 8px 8px 5px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    background-color: #fff;
+    /* filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4)); */
+}
+
+.search-btn:hover {
+    color: #61DBFB;
+}
+
+.search-btn i {
+    margin-right: 4px;
+    font-size: 22px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
+}
+
+/* note list */
+
+.note-list{
+    margin: 20px 40px;
+    /* border:  1px solid black; */
+    width: 400px;
+
+}
+
+.each-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 8px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.each-item:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s ease; /* Add a transition for smooth effect */
+
+}
+
+.each-item i {
+    font-size: 22px;
+}
+
+.each-item i:hover {
+    color: #ff0000;
+    cursor: pointer;
+
+}
+
+.task-list{
+    font-size: 18px;
+}
+
+.clearItem{
+    /* border: 1px soli/d red; */
+    width: 400px;
+    margin-left: 40px;
+    
+}
+
+.clear-all{
+    width: 100px;
+    padding:5px 10px ;
+    border: none;
+    border-radius: 30px;
+}
+
+.clear-all:hover{
+background-color: var(--main-color);
+color: var(--white-color);
+box-shadow: 0 0 10px var(--button-hover-color);
+}

@@ -1,0 +1,5 @@
+.today:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #61DBFB;
+    transition: box-shadow 0.3s ease;
+}

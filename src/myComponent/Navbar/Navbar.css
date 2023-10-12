@@ -1,0 +1,15 @@
+.navbar-toggler{
+    box-shadow: none; /* Set your desired box shadow values here */
+  transition: box-shadow 0.3s ease;
+}
+
+.navbar-toggler:hover{
+    background-color: black;
+    color: #61DBFB;
+    box-shadow: 0 0 10px rgba(97, 219, 251, 5);
+}
+
+.navbar-nav li.nav-item :hover {
+background-color: black;
+color: #61DBFB;
+}
